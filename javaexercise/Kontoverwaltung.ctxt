@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Kontoverwaltung()
+comment0.text=\nErzeuge\ eine\ neue\ Kontoverwaltung.\n\n
+comment1.params=ihrvorname\ ihrnachname\ ihrekontonummer
+comment1.target=void\ kontoAnlegen(String,\ String,\ String)
+comment1.text=\nErstelle\ ein\ neues\ Privatkonto\ f\u00FCr\ diese\ Kontoverwaltung.\ \nDa\ es\ ein\ Privatkonto\ ist,\ wird\ im\ Datenfeld\ firma\ "Privatperson"\ als\ Standard\ eingesetzt.\ \n\n
+comment2.params=ihrvorname\ ihrnachname\ ihrekontonummer\ firma\ limit
+comment2.target=void\ gesch\u00E4ftskontoAnlegen(String,\ String,\ String,\ String,\ double)
+comment2.text=\nErstelle\ ein\ neues\ Gesch\u00E4ftskonto\ f\u00FCr\ diese\ Kontoverwaltung.\ \nIm\ Gegensatz\ zum\ Privatkonto\ muss\ hier\ zus\u00E4tzlich\ die\ Firma\ angegeben\ werden,\ \nsowie\ ein\ Limit,\ das\ Limit\ muss\ als\ positive\ Zahl\ eingegeben\ werden.\n\n
+comment3.params=kontonummer\ einzahlungsbetrag
+comment3.target=void\ einzahlen(String,\ double)
+comment3.text=\nEinzahlung\:\ Falls\ ein\ Konto\ mit\ der\ eingegebenen\ Kontonummer\ \u00FCbereinstimmt\ und\ dieses\ nicht\ gesperrt\ ist,\nerh\u00F6ht\ sich\ der\ Kontostand\ um\ den\ eingegeben\ Betrag.\ Falls\ es\ gesperrt\ ist,\ erscheint\ eine\ Fehlermeldung.\nDie\ Einzahlungsbetr\u00E4ge\ sind\ in\ "CHF".\n\n
+comment4.params=kontonummer\ abhebebetrag
+comment4.target=void\ abheben(String,\ double)
+comment4.text=\nEinzahlung\:\ Falls\ ein\ Konto\ mit\ der\ eingegebenen\ Kontonummer\ \u00FCbereinstimmt\ und\ dieses\ nicht\ gesperrt\ ist,\nvermindert\ sich\ der\ Kontostand\ um\ den\ eingegeben\ Betrag.\ Falls\ es\ gesperrt\ ist,\ erscheint\ eine\ Fehlermeldung.\nDie\ Einzahlungsbetr\u00E4ge\ sind\ in\ "CHF".\n\n
+comment5.target=void\ kontenAuflisten()
+comment5.text=\nAlle\ Konten\ mit\ ihren\ jeweiligen\ Attributen\ werden\ aufgelistet.\n\n
+comment6.target=void\ kontoinhaberAuflisten()
+comment6.text=\nAlle\ Konteninhaber\ werden\ aufgelistet.\nFalls\ es\ sich\ nicht\ um\ eine\ Privatperson\ handelt,\ wird\ zus\u00E4tzlich\ die\ Firma\ angezeigt.\nEine\ Privatperson\ wird\ nur\ einmal\ angezeigt,\ unabh\u00E4ngig\ davon,\ wieviele\ Privatkonten\ sie\ besitzt.\nFalls\ eine\ Person\ mehrere\ Konten\ f\u00FCr\ verschiedene\ Firmen\ besitzt,\ werden\ all\ diese\ Firmen\ angezeigt\nsowie\ nochmals\ der\ Name\ des\ Kontobesitzers.\n\n
+comment7.target=void\ kontoSperren()
+comment7.text=\nSperrt\ alle\ Konten,\ falls\ bei\ Privatperson\ der\ Kontostand\ negativ\ ist\ \noder\ falls\ bei\ Gesch\u00E4ftskunden\ der\ Kontostand\ unter\ dem\ festgesetzten\ Limit\ ist.\n\n
+numComments=8

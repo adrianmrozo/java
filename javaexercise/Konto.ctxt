@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=ihrvorname\ ihrnachname\ ihrekontonummer\ firma\ limit
+comment0.target=Konto(String,\ String,\ String,\ String,\ double)
+comment0.text=\nErstellt\ ein\ neues\ Konto.\ Der\ Anfangskontostand\ betr\u00E4gt\ 0.00,\ \ndas\ Konto\ ist\ vorerst\ f\u00FCr\ Aus-\ und\ Einzahlungen\ nicht\ gesperrt.\ \nBitte\ Limit\ als\ positive\ Zahl\ eingeben.\n\n
+comment1.params=einzahlungsbetrag
+comment1.target=void\ einzahlen(double)
+comment1.text=\nEinzahlung\:\ Falls\ das\ Konto\ nicht\ gesperrt\ ist,\ erh\u00F6ht\nsich\ der\ Kontostand\ um\ den\ eingegeben\ Betrag.\ Ansonsten\ erscheint\ eine\ Fehlermeldung.\nDie\ Einzahlungsbetr\u00E4ge\ sind\ in\ "CHF".\n\n
+comment2.params=abhebebetrag
+comment2.target=void\ abheben(double)
+comment2.text=\nAuszahlung\:\ Falls\ das\ Konto\ nicht\ gesperrt\ ist,\ \nvermindert\ sich\ der\ Kontostand\ um\ den\ eingegeben\ Betrag.\ \nAnsonsten\ erscheint\ eine\ Fehlermeldung.\nDie\ Einzahlungsbetr\u00E4ge\ sind\ in\ "CHF".\n\n
+comment3.target=String\ toString()
+comment3.text=\n@return\ Eine\ String-Darstellung\ aller\ Attribute\ dieses\ Kontos.\ \nFalls\ es\ sich\ nicht\ um\ eine\ Privatperson\ handelt,\ werden\ zus\u00E4tzlich\ die\ Attribute\ \nFirma\ und\ Limit\ angezeigt.\n\n
+comment4.target=String\ kontoinhaberAnzeigen()
+comment4.text=\n@return\ Eine\ String-Darstellung\ des\ Kontoinhabers\ dieses\ Kontos.\nFalls\ es\ sich\ nicht\ um\ eine\ Privatperson\ handelt,\ wird\ zus\u00E4tzlich\ die\ Firma\ angezeigt.\n\n
+comment5.target=void\ dieseskontoSperren()
+comment5.text=\nSperrt\ dieses\ Konto,\ falls\ bei\ einer\ Privatperson\ der\ Kontostand\ negativ\ ist\ \noder\ falls\ bei\ einem\ Gesch\u00E4ftskunden\ der\ Kontostand\ unter\ dem\ festgesetzten\ Limit\ ist.\n\n
+numComments=6
